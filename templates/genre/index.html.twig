@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello GenreController!{% endblock %}
+
+{% block body %}
+    {#    commencer l'affichage du formulaire #}
+    {{ form_start(form) }}
+
+    <button type="submit">Valider</button>
+
+    {#    finir l'affichage du formulaire #}
+    {{ form_end(form) }}
+{% endblock %}
